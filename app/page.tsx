@@ -109,7 +109,7 @@ export default function Home() {
   };
 
   return (
-    <main className="flex min-h-screen flex-col items-center overflow-x-clip pt-12 md:pt-24">
+    <main className="flex min-h-screen flex-col items-center overflow-x-clip pt-16 md:pt-40">
       <section className="flex flex-col items-center px-4 sm:px-6 lg:px-8">
         <Header />
 
@@ -124,7 +124,7 @@ export default function Home() {
           loading={loading}
         />
 
-        <Logos />
+        {/* <Logos /> */}
       </section>
 
       <Footer />
