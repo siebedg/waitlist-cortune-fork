@@ -39,10 +39,10 @@ export async function POST(request: NextRequest, response: NextResponse) {
   const { email, firstname } = await request.json();
 
   const { data, error } = await resend.emails.send({
-    from: "Lakshay<hello@waitlist.lakshb.dev>",
+    from: "hello@cortune.app",
     to: [email],
     subject: "Thankyou for wailisting Cortune!",
-    reply_to: "lakshb.work@gmail.com",
+    reply_to: "siebe.de.gelas@gmail.com",
     html:  await render(WelcomeTemplate({ userFirstname: firstname })),
   });
 

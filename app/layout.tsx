@@ -9,7 +9,7 @@ const FigtreeFont = Figtree({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Cortune",
   description:
-    "A simple Next.js waitlist template with Notion as CMS and Resend to send emails created with React Email and Upstash Redis for rate limiting. Deployed on Vercel.",
+    "Join the Cortune waitlist! A neuro-performance platform that adapts real-time music to your heart rate. Be the first to access peak focus and flow.",
 };
 
 export default function RootLayout({

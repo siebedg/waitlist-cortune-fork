@@ -4,7 +4,7 @@ import { toast } from "sonner";
 import { useState } from "react";
 import CTA from "@/components/cta";
 import Form from "@/components/form";
-import Logos from "@/components/logos";
+// import Logos from "@/components/logos";
 import Particles from "@/components/ui/particles";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
