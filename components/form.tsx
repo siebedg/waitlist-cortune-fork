@@ -60,7 +60,7 @@ export default function Form({
       <motion.div
         variants={itemVariants}
         className="mt-4 flex w-full items-center justify-center gap-1 text-muted-foreground">
-        <p>For any queries, reach out at </p>
+        <p>For any questions, reach out at </p>
         <Link
           href="#"
           rel="noopener noreferrer"
