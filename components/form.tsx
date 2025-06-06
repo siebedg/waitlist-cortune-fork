@@ -70,7 +70,7 @@ export default function Form({
         </Link> */}
         {/* or */}
         <Link
-          href="#"
+          href="mailt:mailto:hello@cortune.app"
           rel="noopener noreferrer"
           target="_blank">
             
