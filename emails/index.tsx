@@ -21,11 +21,9 @@ export const NotionWaitlistEmail = ({ userFirstname }: EmailProps) => (
     <Body style={main}>
       <Container style={container}>
         <Img
-          src=""
-          // src={`https://nextjs-notion-waitlist.vercel.app/waitlist-logo.png`}
-          width="220"
-          height="100"
-          alt="Notion Waitlist Logo"
+          src={`https://cortune.app/logo.png`}
+          height="80"
+          alt="Waitlist Logo"
           style={logo}
         />
         <Text style={greeting}>Hi {userFirstname},</Text>
@@ -38,16 +36,16 @@ export const NotionWaitlistEmail = ({ userFirstname }: EmailProps) => (
           ready for you to use. In the meantime, if you have any questions or
           feedback, don't hesitate to reach out by replying directly to{" "}
           <a href="mailto:hello@cortune.app" style={link}>
-            this email {""}
+            this email{""}
           </a>
-          — I'm here to listen!
+          {""} — I'm here to listen!
         </Text>
-        <Text style={paragraph}>
+        {/* <Text style={paragraph}>
           You can also follow me on X/Twitter for updates:{" "}
           <a href="#" style={link}>
             @Cortune
           </a>
-        </Text>
+        </Text> */}
         <Text style={signOff}>
           Best regards,
           <br />
@@ -71,7 +69,7 @@ NotionWaitlistEmail.PreviewProps = {
 export default NotionWaitlistEmail;
 
 const main = {
-  background: "linear-gradient(-225deg, #FFE29F 0%, #FFA99F 48%, #FF719A 100%)",
+  background: "linear-gradient(-225deg, #1b0e2e 0%, #523277 48%, #9362df 100%)",
   fontFamily: 'figtree, "Helvetica Neue", Helvetica, Arial, sans-serif',
   padding: "40px 0",
   color: "#cccccc",
