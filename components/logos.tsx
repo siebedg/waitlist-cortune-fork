@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { containerVariants, itemVariants } from "@/lib/animation-variants";
 import TextBlur from "./ui/text-blur";
+import { containerVariants, itemVariants } from "../lib/animation-variants";
 
 const logos = [
   { href: "https://nextjs.org", src: "/nextjs.svg", alt: "Next.js Logo" },

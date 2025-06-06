@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 import { FaGithub } from "react-icons/fa6";
 import { SiNotion } from "react-icons/si";
 import { FaYoutube } from "react-icons/fa";
+import { containerVariants, itemVariants } from "../lib/animation-variants";
 
-import { containerVariants, itemVariants } from "@/lib/animation-variants";
 
 export default function Header() {
   return (

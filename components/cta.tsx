@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
-import TextBlur from "@/components/ui/text-blur";
-import AnimatedShinyText from "@/components/ui/shimmer-text";
-import { containerVariants, itemVariants } from "@/lib/animation-variants";
+import AnimatedShinyText from "./ui/shimmer-text";
+import { containerVariants, itemVariants } from "../lib/animation-variants";
+import TextBlur from "./ui/text-blur";
 
 export default function CTA() {
   return (
