@@ -20,7 +20,7 @@ export default function Header() {
             size="sm"
             hidden
             variant="secondary"
-            className="text-yellow-50 transition-all duration-150 ease-linear md:hover:text-yellow-200">
+            className="text-purple-50 transition-all duration-150 ease-linear md:hover:text-purple-200">
             {/* <SiNotion className="md:mr-1.5" /> */}
             <span className="hidden md:inline"></span>
           </Button>
@@ -31,7 +31,7 @@ export default function Header() {
           <Button
             size="sm"
             variant="secondary"
-            className="text-yellow-50 transition-all duration-150 ease-linear md:hover:text-yellow-200">
+            className="text-purple-50 transition-all duration-150 ease-linear md:hover:text-purple-200">
             <FaYoutube className="md:mr-1.5" />
             <span className="hidden md:inline">YouTube Channel</span>
           </Button>

@@ -21,9 +21,9 @@ export default function CTA() {
       </motion.div>
 
       <motion.img
-        src="/logo-question.png"
+        src="/logo.png"
         alt="logo"
-        className="mx-auto h-24"
+        className="mx-auto h-24 mb-6"
         variants={itemVariants}
       />
 

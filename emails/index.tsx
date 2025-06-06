@@ -103,7 +103,7 @@ const paragraph = {
 };
 
 const link = {
-  color: "#F7FF9B",
+  color: "#cbbdff",
   textDecoration: "underline",
 };
 
