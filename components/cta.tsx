@@ -11,7 +11,7 @@ export default function CTA() {
       initial="hidden"
       animate="visible">
       <motion.div variants={itemVariants}>
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center mt-6 sm:mt-2">
           <div className="flex w-fit items-center justify-center rounded-full bg-muted/80 text-center">
             <AnimatedShinyText className="px-4 py-1">
               <span>Coming soon!</span>
@@ -23,7 +23,7 @@ export default function CTA() {
       <motion.img
         src="/logo.png"
         alt="logo"
-        className="mx-auto h-24 mb-6"
+        className="mx-auto mt-6 h-16 sm:h-24 mb-6"
         variants={itemVariants}
       />
 
