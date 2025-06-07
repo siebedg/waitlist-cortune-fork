@@ -25,7 +25,7 @@ export default function RootLayout({
       <meta property="og:image:height" content="832" />
       <meta
         property="og:site_name"
-        content="Cortune waitlist"
+        content="Cortune waitlist"  
       />
       <meta name="twitter:image" content="/open-graph.png" />
       <meta name="twitter:image:type" content="image/png" />

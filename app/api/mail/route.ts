@@ -41,7 +41,7 @@ export async function POST(request: NextRequest, response: NextResponse) {
   const { data, error } = await resend.emails.send({
     from: "hello@cortune.app",
     to: [email],
-    subject: "Thankyou for wailisting Cortune!",
+    subject: "Thankyou for waitlisting Cortune!",
     reply_to: "siebe.de.gelas@gmail.com",
     html:  await render(WelcomeTemplate({ userFirstname: firstname })),
   });
